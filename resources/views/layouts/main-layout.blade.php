@@ -12,7 +12,7 @@
 <body>
     <div class="text-center">
         @include('components.header')
-        @yield('content')
+        @include('components.main')
         @include('components.footer')
     </div>
 </body>
